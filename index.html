@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Choculaterie.com - Maintenance</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+        
+        body {
+            background-image: url('https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21/assets/minecraft/textures/block/dirt.png');
+            background-repeat: repeat;
+            color: #ffffff;
+            font-family: 'VT323', monospace;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+            text-shadow: 2px 2px 0 #3a3a3a;
+        }
+        .container {
+            background-image: url('https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21/assets/minecraft/textures/block/spruce_planks.png');
+            background-repeat: repeat;
+            border: 4px solid #4d3923;
+            border-radius: 0;
+            padding: 2rem 3rem;
+            box-shadow: 0 0 0 4px #000000;
+            text-align: center;
+            image-rendering: pixelated;
+            position: relative;
+        }
+        .container::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            box-shadow: inset 0 0 10px 5px rgba(0,0,0,0.5);
+            pointer-events: none;
+        }
+        h1 {
+            margin-bottom: 1rem;
+            font-size: 2.5rem;
+            letter-spacing: 1px;
+            color: #FFFF55;
+        }
+        p {
+            font-size: 1.8rem;
+            margin: 0;
+            line-height: 1.4;
+        }
+        .minecraft-btn {
+            display: inline-block;
+            background-color: #545454;
+            border: 2px solid #000;
+            color: #ffffff;
+            padding: 10px 20px;
+            margin-top: 20px;
+            font-family: 'VT323', monospace;
+            font-size: 1.5rem;
+            text-decoration: none;
+            text-shadow: 2px 2px 0 #3a3a3a;
+            position: relative;
+            cursor: pointer;
+        }
+        .minecraft-btn::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 50%;
+            background-color: rgba(255,255,255,0.2);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>CHOCULATERIE.COM</h1>
+        <p>Site under maintenance</p>
+        <p>We will be back by Tuesday at the latest.</p>
+        <p>Thank you for your understanding!</p>
+    </div>
+</body>
+</html>
